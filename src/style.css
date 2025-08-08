@@ -1,0 +1,13 @@
+/* src/style.css */
+
+/*
+  CSS Reset - Xóa các style mặc định của trình duyệt
+  để đảm bảo hiệu ứng chiếm toàn bộ màn hình.
+*/
+body, html, #app {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; /* Ngăn chặn thanh cuộn xuất hiện */
+}
